@@ -149,8 +149,21 @@ function totalPopulation(obj) {
 */
 
 //Code Here
+// let testFoods = {
+//   carb: "Bread",
+//   fat: "Mayo",
+//   protein: "Ham"
+// }
 
+function ingredients(obj) {
+  let {carb, fat, protein} = obj
+  let foods = []
 
+  foods.push(carb, fat, protein);
+  return foods
+}
+
+// console.log(ingredients(testFoods))
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
