@@ -33,14 +33,15 @@ let Dog = {
 
 //Code here
 let dogName = Dog.name
-console.log(dogName)
+console.log(dogName);
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
-
+let {color: dogColor} = Dog
+console.log(dogColor);
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
