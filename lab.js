@@ -395,14 +395,13 @@ class Vehicle {
   }
 }
 
-// let myCar = new Vehicle(8, "red", 1000)
-// myCar.move(2000)
+
 /*
   Create a vehicle using your new class and save it to a variable called myFirstVehicle
 */
 
 //Code Here
-
+let myFirstVehicle = new Vehicle(8, "red", 50,000)
 
 /* 
   Now we'll create a class that's based off of the vehicle class. 
