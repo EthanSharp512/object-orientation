@@ -124,8 +124,19 @@ function greeting( obj ) {
 */
 
 //Code Here
+// let stateObj = {
+//   utah: 5,
+//   california: 7,
+//   texas: 1,
+//   arizona: 3
+// }
 
-
+function totalPopulation(obj) {
+  let {utah, california, texas, arizona} = obj
+  totalNum = utah + california + texas + arizona;
+  return totalNum;
+}
+// totalPopulation(stateObj);
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
