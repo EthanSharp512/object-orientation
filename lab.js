@@ -261,8 +261,26 @@ leroyJenkins.castSpell()
 */
 
 //Code Here
+class Phone {
+  constructor(brand, model, storage, color, price) {
+    this.brand = brand,
+    this.model = model,
+    this.storage = storage,
+    this.color = color,
+    this.price = price,
+    this.sold = false
+  }
 
-  
+  sell(){
+    this.sold = true
+    console.log(`${this.brand} ${this.model} has been sold.`)
+  }
+
+  changePrice(newPrice) {
+    this.price = newPrice
+  }
+}
+
 /*
     Next make three new phone instances using your class.
     Send in values of your choice. They should match these data types:
@@ -274,6 +292,9 @@ leroyJenkins.castSpell()
 */
 
 //Code Here
+let newPhone1 = new Phone("Apple", "iPhone X", 512, "Black", 999)
+let newPhone2 = new Phone("Apple", "iPhone 5", 64, "Silver", 65)
+let newPhone3 = new Phone("Samsung", "Galaxy S22", 256, "Silver", 799)
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -283,7 +304,8 @@ leroyJenkins.castSpell()
 */ 
 
 //Code Here 
-
+newPhone1.changePrice("$599")
+console.log(newPhone1)
 
 /*
   Now call the sell method on one of your other phone objects
@@ -292,7 +314,8 @@ leroyJenkins.castSpell()
 */
 
 //Code Here 
-
+newPhone1.sell()
+console.log(newPhone1.sold)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
