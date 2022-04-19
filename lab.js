@@ -93,7 +93,7 @@ var carDetails = {
 */
 
 //Code Here
-
+let {color, make, model, year} = carDetails
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
