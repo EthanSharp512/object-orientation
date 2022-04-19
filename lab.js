@@ -382,8 +382,21 @@ console.log(helensInfo)
 */
 
 //Code Here 
+class Vehicle {
+  constructor(capacity, color, mileage) {
+    this.capacity = capacity,
+    this.color = color,
+    this.mileage = mileage
+  }
 
+  move(miles) {
+    this.mileage = miles
+    console.log(this.mileage)
+  }
+}
 
+// let myCar = new Vehicle(8, "red", 1000)
+// myCar.move(2000)
 /*
   Create a vehicle using your new class and save it to a variable called myFirstVehicle
 */
