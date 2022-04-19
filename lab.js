@@ -19,6 +19,12 @@ let me = {
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
+let Dog = {
+  name: "Rex",
+  color: "Brown",
+  age: 8,
+  goodBoy: true
+};
 
 
 
