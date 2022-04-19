@@ -32,7 +32,8 @@ let Dog = {
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
-
+let dogName = Dog.name
+console.log(dogName)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
